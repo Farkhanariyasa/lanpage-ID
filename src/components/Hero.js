@@ -8,6 +8,7 @@ import { BsArrowRight } from 'react-icons/bs';
 
 // import components
 import Header from './Header';
+import Review from './Review';
 
 const Hero = () => {
   // destructure hero
@@ -29,12 +30,13 @@ const Hero = () => {
             </h1>
             {/* subtitle */}
             <p
-              className='lead xl:max-w-[380px] mb-6 lg:mb-12'
+              className='lead xl:max-w-[600px] mb-6 lg:mb-12'
               data-aos='fade-down'
               data-aos-delay='500'
             >
               {subtitle}
             </p>
+            <Review/>
             <button
               className='btn btn-primary mb-8 xl:mb-0'
               data-aos='fade-down'

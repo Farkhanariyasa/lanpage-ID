@@ -42,7 +42,7 @@ export const navigationData = [
 ];
 
 export const heroData = {
-  title: ` Data Insights Experts`,
+  title: `Bring Statistic to Your Language`,
   subtitle:
     'Firstat menyediakan layanan konsultasi statistik ahli untuk membantu mencapai kesuksesan akademik pada skripsi atau tesis Anda.',
   btnText: 'Get in touch',
