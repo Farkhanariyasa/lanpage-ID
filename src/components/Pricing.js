@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <div>
+    <div data-aos="fade-down" data-aos-delay="600">
       <div class="min-h-screen pb-28 sm:pb-0">
         <div class="lg:h-[767px]">
           <div class="max-w-7xl min-h-screen mx-auto p-4 sm:p-10 lg:py-20">

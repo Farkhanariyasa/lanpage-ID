@@ -3,7 +3,7 @@ import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
-import AboutImg from '../src/assets/img/about.png';
+import AboutImg from '../src/assets/img/about-svg.svg';
 import Feature1Img from '../src/assets/img/features/feature1.png';
 import Feature2Img from '../src/assets/img/features/feature2.png';
 import Feature3Img from '../src/assets/img/features/feature3.png';
@@ -53,7 +53,7 @@ export const aboutData = {
   image: AboutImg,
   title: 'Find Out A Little More About Us',
   subtitle:
-    'We are a company dedicated to the distribution of products by delivery to your home or to the place where you are, with the best quality of delivery.',
+    'We have been establishing the company since 2019. We evolved the brand multiple times until we finally decided to invent our brand-new label for the business in the post-pandemic era. The Firstat means first and statistics. It showcases our promising capability in providing first class quality in all statistical-related services.',
 };
 
 export const featuresData = {

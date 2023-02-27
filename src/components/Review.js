@@ -3,10 +3,14 @@ import React from "react";
 const Review = () => {
   return (
     <div>
-      <div class="flex justify-start mb-5">
-        <div class="block max-w-[600px] rounded-lg">
+      <div
+        class="flex justify-start mb-5"
+        data-aos="fade-down"
+        data-aos-delay="400"
+      >
+        <div class="block max-w-[400px] rounded-lg ">
           <div class="flex row">
-            <h5 class="mb-2 text-xl font-medium leading-tight">Ben Destro</h5>
+            <h5 class="mb-2 text-xl text-primary font-medium leading-tight">Ben Destro</h5>
             <span class="ml-2 text-sm text-gray-500 pt-1 mr-2">|</span>
             <ul class="flex justify-start pt-1">
               <li>

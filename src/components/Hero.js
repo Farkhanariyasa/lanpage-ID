@@ -38,7 +38,7 @@ const Hero = () => {
             </p>
             <Review/>
             <button
-              className='btn btn-primary mb-8 xl:mb-0'
+              className='btn bg-primary mb-8 xl:mb-0'
               data-aos='fade-down'
               data-aos-delay='600'
             >
