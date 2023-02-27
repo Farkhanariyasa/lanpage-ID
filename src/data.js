@@ -29,15 +29,15 @@ export const navigationData = [
   },
   {
     name: 'Pricing',
-    href: '#features',
+    href: '#pricing',
   },
   {
     name: 'Features',
-    href: '#',
+    href: '#features',
   },
   {
     name: 'Testimonials',
-    href: '#',
+    href: '#testimonials',
   },
 ];
 
