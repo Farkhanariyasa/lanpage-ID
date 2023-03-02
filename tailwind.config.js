@@ -19,12 +19,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: '#212353',
+        primary: '#06153A',
         secondary: '#4B5D68',
         accent: {
           primary: '#9C69E2',
           primary_hover: '#9059DB',
-          secondary: '#F063B8',
+          secondary: '#53D5FA',
           secondary_hover: '#E350A9',
           tertiary: '#68C9BA',
         },

@@ -4,15 +4,15 @@ const Review = () => {
   return (
     <div>
       <div
-        class="flex justify-start mb-5"
+        class="flex mb-5 justify-center  xl:justify-start "
         data-aos="fade-down"
         data-aos-delay="400"
       >
-        <div class="block max-w-[400px] rounded-lg ">
-          <div class="flex row">
+        <div class="block max-w-[400px] rounded-lg">
+          <div class="flex row  justify-center  xl:justify-start ">
             <h5 class="mb-2 text-xl text-primary font-medium leading-tight">Ben Destro</h5>
             <span class="ml-2 text-sm text-gray-500 pt-1 mr-2">|</span>
-            <ul class="flex justify-start pt-1">
+            <ul class="flex justify-start pt-1 ">
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
