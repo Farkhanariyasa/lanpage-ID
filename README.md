@@ -1,6 +1,3 @@
-![React JS Product Landing Page Animate On Scroll](https://user-images.githubusercontent.com/82109268/201672491-28daa1bc-3aa9-49de-a72d-4baa1c08530e.jpg)
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Tailwind CSS
+This project using tailwind css as styling framework
+https://tailwindcss.com/
