@@ -5,7 +5,7 @@ import TestimonialSlider from '../components/TestimonialSlider';
 
 const Testimonials = () => {
   return (
-    <section className='relative'>
+    <section className='relative overflow-hidden'>
       <div className='container-fluid mx-auto'>
         <div
           className='bg-accent-primary min-h-[600px]'

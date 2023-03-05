@@ -42,12 +42,6 @@ const App = () => {
       <section id="footer">
         <Footer />
       </section>
-      {/* <Hero />
-      <About />
-      <Features />
-      <Testimonials />
-      <CtaSection />
-      <Footer /> */}
     </div>
   );
 };
