@@ -43,7 +43,7 @@ const TestimonialSlider = () => {
               <div className='mb-4 font-semibold text-accent-primary'>
                 {web}
               </div>
-              <p className='max-w-[240px]'>{message}</p>
+              <p className='max-w-[600px] overflow-scroll xl:overflow-auto'>{message}</p>
             </div>
           </SwiperSlide>
         );

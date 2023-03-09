@@ -1,5 +1,5 @@
 // import icons
-import { FaYoutube, FaInstagram, FaGithub } from 'react-icons/fa';
+import { FaYoutube, FaInstagram, FaGithub, FaTiktok } from 'react-icons/fa';
 import { BsChatDotsFill } from 'react-icons/bs';
 
 // import images
@@ -40,7 +40,7 @@ export const navigationData = [
 export const heroData = {
   title: `Bring Statistic to Your Language`,
   subtitle:
-    'Firstat menyediakan layanan konsultasi statistik ahli untuk membantu mencapai kesuksesan akademik pada skripsi atau tesis Anda.',
+    'Firstat menyediakan layanan olah data statistik yang cepat dan berkualitas! Tim konsultan kami terdiri dari lulusan Statistika dari Universitas di dalam dan luar negeri yang sudah berpengalaman di industri ini lebih dari 13 tahun. ',
   btnText: 'Get in touch',
   image: HeroImage,
 };
@@ -55,7 +55,7 @@ export const aboutData = {
 export const featuresData = {
   title: 'Kenapa harus kami? ',
   subtitle:
-    'With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!',
+    'Dari jutaan layanan statistik di luar sana, kenapa sih kamu harus memilih firstat?',
   list: [
     {
       image: Feature1Img,
@@ -111,26 +111,42 @@ export const featuresData = {
 export const testimonialsData = [
   {
     image: Avatar1Img,
-    name: 'Serena',
-    web: 'rena.com',
+    name: 'Irene',
+    web: 'Universitas Tarumanegara',
     message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      'Dapat diajak berdiskusi dengan baik.. konsultannya benar2 menguasai dan cara menjelaskannya mudah dipahami.. membuatku jadi makin paham olah data dengan aplikasi MPLUS!',
     delay: '300',
   },
   {
     image: Avatar2Img,
-    name: 'Natalia',
-    web: 'nataliya.com',
+    name: 'Ichal ',
+    web: 'University of South Florida ',
     message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      'Tutor has a deep understanding of statistics and she is able to explain it in an easy-to-understand language to a person without prior extensive experience in stats!',
     delay: '600',
   },
   {
     image: Avatar3Img,
-    name: 'Vebin',
-    web: 'vebin.com',
+    name: 'Ina',
+    web: 'Universitas Gadjah Mada',
     message:
-      'Suspendisse ultrices at diam lectus nullam. Nisl, sagittis viverra enim erat tortor ultricies massa turpis. Arcu pulvinar aenean nam laoreet nulla.',
+      'Five star experience! It was such a great pleasure to have a tutor at Firstat. Karena benar-benar mengajari, membimbing klien untuk mencoba dahulu dan jikalau stuck akan dibantu untuk dicari solusinya dan tidak melakukan manipulasi data apapun. Jadi serasa punya dosen pembimbing bayangan hehe',
+    delay: '900',
+  },
+  {
+    image: Avatar3Img,
+    name: 'Sai',
+    web: 'Harvard University ',
+    message:
+      'Penjelasan cepat tetapi sederhana dan mudah dimengerti. Diberikan arahan mengenal penggunaan uji statistik yg tepat dan ada garansi nya loooh, memuaskan pokoknya',
+    delay: '900',
+  },
+  {
+    image: Avatar3Img,
+    name: 'Chelsea ',
+    web: 'University of Groningen',
+    message:
+      'The teacher is an excellent teacher. She is very helpful and also flexible, which is a very good quality as a tutor. I had a great time during our session! She also makes the session feel welcoming and pleasurable. ',
     delay: '900',
   },
 ];
@@ -144,48 +160,33 @@ export const ctaData = {
 
 export const footerData = {
   logo: LogoV2,
-  address: 'Product Texas, 234 Bokki Avenue Street BMW 99388',
-  email: 'info@producttexas.project',
-  phone: '1-232-7788 (Main)',
+  address: 'Central Jakarta, Indonesia 10430',
+  email: ' info@firstat.id',
+  phone: '+62811908400',
   list1: [
     {
-      name: 'Profile',
-      href: '#',
+      name: 'Home',
+      href: '#hero',
+    },
+    {
+      name: 'Pricing',
+      href: '#pricing',
     },
     {
       name: 'Features',
-      href: '#',
+      href: '#features',
     },
     {
-      name: 'Careers',
-      href: '#',
-    },
-    {
-      name: 'DW News',
-      href: '#',
+      name: 'Testimonials',
+      href: '#testimonials',
     },
   ],
   list2: [
     {
-      name: 'Support',
+      name: 'Privacy Policy',
       href: '#',
     },
-    {
-      name: 'Sign Up',
-      href: '#',
-    },
-    {
-      name: 'Guide',
-      href: '#',
-    },
-    {
-      name: 'Reports',
-      href: '#',
-    },
-    {
-      name: 'Q & A',
-      href: '#',
-    },
+    
   ],
   socialList: [
     {
@@ -194,10 +195,10 @@ export const footerData = {
     },
     {
       icon: <FaInstagram />,
-      href: '#',
+      href: 'https://www.instagram.com/firstat.id/',
     },
     {
-      icon: <FaGithub />,
+      icon: <FaTiktok />,
       href: '#',
     },
   ],

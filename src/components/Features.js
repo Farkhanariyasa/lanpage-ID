@@ -13,7 +13,7 @@ const Features = () => {
     <section className='my-[70px] xl:my-[150px]'>
       <div className='container mx-auto'>
         {/* text */}
-        <div className='text-center pt-10 '>
+      <div className='text-center pt-10 '>
           <h2
             className='h2 mb-6 xl:mb-12'
             data-aos='fade-down'
