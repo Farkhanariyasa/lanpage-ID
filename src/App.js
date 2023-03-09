@@ -12,6 +12,7 @@ import Testimonials from "./components/Testimonials";
 import CtaSection from "./components/CtaSection";
 import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
+import FAQ from "./components/FAQ";
 
 const App = () => {
   // animate on scroll initialization
@@ -24,20 +25,21 @@ const App = () => {
       <section id="hero">
         <Hero />
       </section>
-      <section id="about">
-        <About />
+      <section id="features">
+        <Features />
       </section>
       <section id="pricing">
         <Pricing />
       </section>
-      <section id="features">
-        <Features />
-      </section>
+
       <section id="testimonials">
         <Testimonials />
       </section>
       <section id="cta">
         <CtaSection />
+      </section>
+      <section id="faq">
+        <FAQ />
       </section>
       <section id="footer">
         <Footer />

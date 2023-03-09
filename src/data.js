@@ -24,10 +24,6 @@ export const navigationData = [
     href: '#hero',
   },
   {
-    name: 'About',
-    href: '#about',
-  },
-  {
     name: 'Pricing',
     href: '#pricing',
   },
@@ -57,45 +53,57 @@ export const aboutData = {
 };
 
 export const featuresData = {
-  title: 'Some Services We Offer',
+  title: 'Kenapa harus kami? ',
   subtitle:
     'With our app you can view the route of your order, from our local headquarters to the place where you are. Look for the app now!',
   list: [
     {
       image: Feature1Img,
       bgImage: Feature1BgImg,
-      title: 'Payment Done',
+      title: 'TRUSTED',
       description:
-        'Pay with a Visa or PayPal card and without much ado',
-      linkText: 'Learn more',
+        'Kami sudah melayani ratusan klien dalam mengerjakan skripsi, tesis, maupun disertasi dari berbagai negara seperti Indonesia, Malaysia, Australia, Belanda, dan Amerika Serikat.',
       delay: '400',
     },
     {
       image: Feature2Img,
       bgImage: Feature2BgImg,
-      title: 'Find Your Product',
+      title: 'HIGH-QUALITY CONSULTANTS',
       description:
-        'We offer sale of products through the Internet..',
-      linkText: 'Learn more',
+        'Tim konsultan kami dipimpin oleh lulusan statistik dari Amerika Serikat dengan pengalaman lebih dari 10 tahun.',
       delay: '700',
     },
     {
       image: Feature3Img,
       bgImage: Feature3BgImg,
-      title: 'Print Out',
+      title: 'UNDERSTANDABLE EXPLANATION',
       description:
-        'Print out service gives you convenience if someday you need print data, just edit it all and just print it.',
-      linkText: 'Learn more',
+        'Kami menjelaskan statistika dengan bahasa yang simpel dan mudah dimengerti',
       delay: '1000',
     },
     {
       image: Feature4Img,
       bgImage: Feature4BgImg,
-      title: 'Product Received',
+      title: 'FAST and ACCURATE',
       description:
-        'In our app you can see the delay time of your order...',
-      linkText: 'Learn more',
+        'Kami bekerja dengan cepat dan akurat karena bagi kami kepuasan klien itu nomor satu.',
       delay: '1300',
+    },
+    {
+      image: Feature4Img,
+      bgImage: Feature4BgImg,
+      title: 'WORTH THE MONEY ',
+      description:
+        'Free: konsultasi, interpretasi, dan revisi.',
+      delay: '1300',
+    },
+    {
+      image: Feature3Img,
+      bgImage: Feature3BgImg,
+      title: 'BILINGUAL SERVICE',
+      description:
+        'Penjelasan dan tulisan bisa dalam bahasa Indonesia dan Inggris.',
+      delay: '1000',
     },
   ],
 };
