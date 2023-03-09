@@ -2,289 +2,67 @@ import React from "react";
 
 const PricingTutor = () => {
   return (
-    <div data-aos="fade-down" data-aos-delay="200">
-      <div class="flex flex-col lg:flex-row justify-center items-center  gap-8 lg:gap-0 lg:mt-4">
-        <div class="flex-1 w-full mb-6 bg-white rounded-xl shadow-xl lg:scale-95">
-          <div class="text-center p-12">
-            <p class="text-3xl lg:text-2xl xl:text-3xl pb-4">Hobby</p>
-            <div class="flex justify justify-center items-center">
-              <span class="font-extrabold text-5xl lg:text-4xl xl:text-6xl align-text-middle px-3">
-                $ 79
-              </span>
-              <span class="font-normal text-xl text-gray-500 inline-block align-text-middle">
-                /month
-              </span>
+    <div class="flex-col" data-aos="fade-down" data-aos-delay="200">
+      <div class="flex flex-col sm:flex-row    ">
+        <div class="py-12 pr-12 pl-4  w-[375px] xl:w-[800px] ">
+          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+            <div class="px-8 flex justify-center items-center">
+              <h4 class="text-3xl font-bold text-gray-800">INTROVERT </h4>
             </div>
-          </div>
-          <div class="bg-gray-100 rounded-b-xl border-t-2 border-gray-200/20 p-10">
-            <ul class="space-y-4">
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  when an unknown printer took a galley.
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  leap into electronic typesetting remaining.{" "}
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  ontaining Lorem Ipsum passages and more.
-                </span>
-              </li>
-            </ul>
-            <button
-              type="button"
-              class="w-full text-center bg-white text-lg text-indigo-600 mt-8 p-3 rounded shadow-xl transition hover:text-white hover:bg-indigo-600"
-            >
-              Start your trial
-            </button>
-          </div>
-        </div>
-        <div class="lg:max-w-max mb-6 relative w-full bg-white rounded-xl shadow-xl border-2 border-indigo-600 lg:scale-110 z-10">
-          <div class="text-center p-12">
-            <p class="text-3xl lg:text-2xl xl:text-3xl pb-4 font-semibold">
-              Growth
+            <h1 class="text-3xl text-center font-bold">
+              <span class="text-[16px] italic font-normal">Start </span>
+              Rp299.000
+            </h1>
+            <p class="px-4 text-center text-sm ">
+              Paket ini cocok buat kamu yang pengen belajar dan ditutorin
+              one-on-one sama tutornya, alias private sama tutor. Kami punya
+              tutor yang pastinya profesional, berpengalaman, dan dengan
+              berbagai tipe kepribadian. Mau request yang sesama introvert? Mau
+              yang heboh? Atau malah yang setengah-setengah? Ada semua kok di
+              tim kami!
             </p>
-            <div class="flex justify justify-center items-center">
-              <span class="font-extrabold text-5xl lg:text-4xl xl:text-6xl align-text-middle px-3">
-                $ 149
-              </span>
-              <span class="font-normal text-xl text-gray-500 inline-block align-text-middle">
-                /month
-              </span>
+
+            <div class="text-center">
+              <button
+                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
+                onClick={() => {
+                  window.location.href =
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Tutor%20Introvert";
+                }}
+              >
+                Pesan Sekarang
+              </button>
             </div>
-          </div>
-          <div class="bg-gray-100 rounded-b-xl border-t-2 border-gray-200/20 p-10">
-            <ul class="space-y-4">
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  when an unknown printer took a galley.
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  leap into electronic typesetting remaining.{" "}
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  ontaining Lorem Ipsum passages and more.
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  leap into electronic typesetting remaining.{" "}
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  ontaining Lorem Ipsum passages and more.
-                </span>
-              </li>
-            </ul>
-            <button
-              type="button"
-              class="w-full text-center bg-indigo-600 text-lg text-white mt-8 p-3 rounded shadow-xl transition hover:text-white hover:bg-indigo-700"
-            >
-              Start your trial
-            </button>
-          </div>
-          <div class="absolute rounded-full w-40 bg-indigo-600 text-white text-center text-sm tracking-wider px-4 py-1 -top-3 inset-x-0 mx-auto">
-            MOST POPULAR
           </div>
         </div>
-        <div class="flex-1 w-full mb-6 bg-white rounded-xl shadow-xl lg:scale-95">
-          <div class="text-center p-12">
-            <p class="text-3xl lg:text-2xl xl:text-3xl pb-4">Hobby</p>
-            <div class="flex justify justify-center items-center">
-              <span class="font-extrabold text-5xl lg:text-4xl xl:text-6xl align-text-middle px-3">
-                $ 349
-              </span>
-              <span class="font-normal text-xl text-gray-500 inline-block align-text-middle">
-                /month
-              </span>
+        <div class="py-12 pl-4 w-[325px] xl:w-[800px]">
+          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+            <div class="px-8 flex justify-center items-center">
+              <h4 class="text-3xl font-bold text-gray-800">EXTROVERT</h4>
             </div>
-          </div>
-          <div class="bg-gray-100 rounded-b-xl border-t-2 border-gray-200/20 p-10">
-            <ul class="space-y-4">
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  when an unknown printer took a galley.
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  leap into electronic typesetting remaining.{" "}
-                </span>
-              </li>
-              <li class="flex">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-6 w-6 mr-3 text-green-500"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M5 13l4 4L19 7"
-                  />
-                </svg>
-                <span class="text-gray-500">
-                  ontaining Lorem Ipsum passages and more.
-                </span>
-              </li>
-            </ul>
-            <button
-              type="button"
-              class="w-full text-center bg-white text-lg text-indigo-600 mt-8 p-3 rounded shadow-xl transition hover:text-white hover:bg-indigo-600"
-            >
-              Start your trial
-            </button>
+            <h1 class="text-3xl text-center font-bold">
+              <span class="text-[16px] italic font-normal">Start </span>
+              Rp99.000
+              <span class="text-[16px] italic font-normal">min 3 orang </span>
+            </h1>
+            <p class="px-4 pl-32 text-center text-sm w-[500px]">
+              Paket ini cocok untuk kamu yang pengen belajar ramean bareng
+              temen-temen. Tenang aja, kami punya tutor yang profesional,
+              berpengalaman dan pastinya asik banget sehingga kamu pasti bisa
+              ngerti materi Statistik dengan sangat mudah!
+            </p>
+
+            <div class="text-center  ">
+              <button
+                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
+                onClick={() => {
+                  window.location.href =
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Tutor%20Extrovert";
+                }}
+              >
+                Pesan Sekarang
+              </button>
+            </div>
           </div>
         </div>
       </div>

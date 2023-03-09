@@ -15,17 +15,15 @@ const Pricing = () => {
 
   return (
     <div data-aos="fade-down" data-aos-delay="200">
-      <div class="min-h-[1100px] pb-28 sm:pb-0">
+      <div className="min-h-[1100px] pb-28 xl:mb-[400px] ">
         <div class="lg:h-[767px]">
           <div class="max-w-7xl min-h-screen mx-auto p-4 sm:p-10 lg:py-20">
             <div class="max-w-5xl flex-col justify-center items-center text-center mx-auto bg  text-white tracking-widest pb-10 lg:pb-20">
               <h1 class="h2 mb-6 xl:mb-12">
-                The Right Price for You, Whoeveryou re
+                Find the best product for you !
               </h1>
               <p class="lead text-center ">
-                Lorem ipsum has been the industry's standard dummy text ever
-                since , when an unknown printer took a galley of type and
-                scrambled.
+                Beda orang beda kebutuhan, Apapun kebutuhan kamu, selalu ada produk yang tepat untukmu. 
               </p>
             </div>
             <div class="max-w-xl flex-col justify-center items-center text-center mx-auto bg  text-white tracking-widest pb-10 lg:pb-20">
