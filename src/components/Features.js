@@ -17,14 +17,14 @@ const Features = () => {
           <h2
             className='h2 mb-6 xl:mb-12'
             data-aos='fade-down'
-            data-aos-delay='100'
+            data-aos-delay='50'
           >
             {title}
           </h2>
           <p
             className='lead max-w-[584px] mx-auto mb-16 xl:mb-24'
             data-aos='fade-down'
-            data-aos-delay='200'
+            data-aos-delay='75'
           >
             {subtitle}
           </p>
