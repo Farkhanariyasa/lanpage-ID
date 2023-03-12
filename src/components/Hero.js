@@ -24,7 +24,7 @@ const Hero = () => {
             <h1
               className="h1 xl:max-w-[700px] mb-6 xl:mb-12"
               data-aos="fade-down"
-              data-aos-delay="100"
+              data-aos-delay="50"
             >
               {title}
             </h1>
@@ -32,7 +32,7 @@ const Hero = () => {
             <p
               className="lead xl:max-w-[600px] mb-6 lg:mb-12"
               data-aos="fade-down"
-              data-aos-delay="200"
+              data-aos-delay="100"
             >
               {subtitle}
             </p>
@@ -40,7 +40,11 @@ const Hero = () => {
             <button
               className="btn bg-primary mb-8 xl:mb-0"
               data-aos="fade-down"
-              data-aos-delay="300"
+              data-aos-delay="150"
+              onClick={() => {
+                window.location.href =
+                  "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20Tanya";
+              }}
             >
               <div className="flex row justify-center ">
                 {btnText}
@@ -52,7 +56,7 @@ const Hero = () => {
           <div
             className="xl:absolute xl:-right-12 xl:bottom-16"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             <img
               src={image}
