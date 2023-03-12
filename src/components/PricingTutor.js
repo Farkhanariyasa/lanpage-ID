@@ -5,7 +5,7 @@ const PricingTutor = () => {
     <div class="flex-col" data-aos="fade-down" data-aos-delay="200">
       <div class="flex flex-col sm:flex-row    ">
         <div class="py-12 pr-12 pl-4  w-[375px] xl:w-[800px] ">
-          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden border-amber-300 border-2  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">INTROVERT </h4>
             </div>
@@ -36,7 +36,7 @@ const PricingTutor = () => {
           </div>
         </div>
         <div class="py-12 pl-4 w-[325px] xl:w-[800px]">
-          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+          <div class="bg-white  border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">EXTROVERT</h4>
             </div>
@@ -45,7 +45,7 @@ const PricingTutor = () => {
               Rp99.000
               <span class="text-[16px] italic font-normal">min 3 orang </span>
             </h1>
-            <p class="px-4 pl-32 text-center text-sm w-[500px]">
+            <p class="px-4 text-center text-sm xl:w-[500px] xl:pl-24">
               Paket ini cocok untuk kamu yang pengen belajar ramean bareng
               temen-temen. Tenang aja, kami punya tutor yang profesional,
               berpengalaman dan pastinya asik banget sehingga kamu pasti bisa

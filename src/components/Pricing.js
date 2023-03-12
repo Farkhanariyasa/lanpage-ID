@@ -15,7 +15,7 @@ const Pricing = () => {
 
   return (
     <div data-aos="fade-down" data-aos-delay="200">
-      <div className="min-h-[1100px] pb-28 xl:mb-[400px] ">
+      <div className=" pb-28 xl:mb-[400px] min-h-[1100px] ">
         <div class="lg:h-[767px]">
           <div class="max-w-7xl min-h-screen mx-auto p-4 sm:p-10 lg:py-20">
             <div class="max-w-5xl flex-col justify-center items-center text-center mx-auto bg  text-white tracking-widest pb-10 lg:pb-20">
@@ -26,12 +26,12 @@ const Pricing = () => {
                 Beda orang beda kebutuhan, Apapun kebutuhan kamu, selalu ada produk yang tepat untukmu. 
               </p>
             </div>
-            <div class="max-w-xl flex-col justify-center items-center text-center mx-auto bg  text-white tracking-widest pb-10 lg:pb-20">
-              <ul class="hidden text-sm font-medium text-center text-gray-500 divide-x divide-gray-200 rounded-lg shadow sm:flex">
+            <div class="max-w-xl text-center mx-auto bg  text-white tracking-widest pb-10 lg:pb-20">
+              <ul class=" text-sm font-medium text-center text-gray-500 divide-x flex divide-gray-200 rounded-lg shadow xl:blok">
                 <li class="w-full">
                   <button
                     onClick={konsultasiHandler}
-                    class="inline-block w-full p-4 bg-white hover:text-gray-700  rounded-r-lg hover:bg-gray-50 focus:ring-2 focus:ring-blue-300 focus:outline-none"
+                    class="inline-block w-full p-4 bg-white hover:text-gray-700  rounded-l-lg hover:bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   >
                     Konsultasi Statistik
                   </button>
@@ -39,7 +39,7 @@ const Pricing = () => {
                 <li class="w-full">
                   <button
                     onClick={tutorHandler}
-                    class="inline-block w-full p-4 bg-white hover:text-gray-700  rounded-r-lg hover:bg-gray-50 focus:ring-2 focus:ring-blue-300 focus:outline-none"
+                    class="inline-block w-full p-4 bg-white hover:text-gray-700  rounded-r-lg hover:bg-gray-50 focus:ring-2 focus:ring-blue-500 focus:outline-none"
                   >
                     Tutor Statistik
                   </button>

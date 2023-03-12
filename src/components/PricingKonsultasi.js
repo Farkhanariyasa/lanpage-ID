@@ -5,7 +5,7 @@ const PricingTutor = () => {
     <div class="flex-col xl:mb-[400px]" data-aos="fade-down" data-aos-delay="200">
       <div class="flex flex-col sm:flex-row    ">
         <div class="py-12 pr-12 pl-4  w-[375px] xl:w-[800px]">
-          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+          <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">BASIC</h4>
             </div>
@@ -44,7 +44,7 @@ const PricingTutor = () => {
           </div>
         </div>
         <div class="py-12 pl-4 w-[325px] xl:w-[800px]">
-          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+          <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">ORDINARY</h4>
             </div>
@@ -95,7 +95,7 @@ const PricingTutor = () => {
 
       <div class="flex flex-col  sm:flex-row">
         <div class="py-12 pl-4 pr-12 w-[375px] xl:w-[800px]">
-          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+          <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">EXTRAORDINARY</h4>
             </div>
@@ -141,7 +141,7 @@ const PricingTutor = () => {
           </div>
         </div>
         <div class="py-12 pl-4 w-[325px] xl:w-[800px]">
-          <div class="bg-white pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+          <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">MEETING ONLY</h4>
             </div>
@@ -150,7 +150,7 @@ const PricingTutor = () => {
             </h1>
             <p class="px-4 text-center text-sm flex-col justify-start items-center">
               Paket ini cocok untuk kamu yang :
-              <ul class="list-disc list-inside w-[250px] pl-[100px] xl:w-[500px]">
+              <ul class="list-disc list-inside w-[250px] pl-[16px] xl:w-[500px]">
                 <li>
                   Udah ngolah sendiri data tapi bingung cara baca output 
                 </li>
