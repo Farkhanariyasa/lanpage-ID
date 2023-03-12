@@ -10,7 +10,6 @@ import Feature3Img from '../src/assets/img/features/feature3.png';
 import Feature4Img from '../src/assets/img/features/feature4.png';
 import Feature5Img from '../src/assets/img/features/feature5.png';
 import Feature6Img from '../src/assets/img/features/feature6.png';
-import untar from '../src/assets/img/testimonials/untar.png';
 import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
@@ -118,7 +117,7 @@ export const featuresData = {
 
 export const testimonialsData = [
   {
-    image: untar,
+    image: Avatar1Img,
     name: 'Irene',
     web: 'Universitas Tarumanegara',
     message:
