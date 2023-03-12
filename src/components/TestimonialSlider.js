@@ -24,7 +24,7 @@ const TestimonialSlider = () => {
         clickable: true,
       }}
       modules={[Pagination]}
-      className='mySwiper flex justify-end'
+      className='mySwiper flex justify-start'
     >
       {testimonialsData.map((slide, index) => {
         // destructure slide
@@ -33,11 +33,8 @@ const TestimonialSlider = () => {
           // slide
           <SwiperSlide
             key={index}
-            className='bg-white rounded-[20px] border border-accent-primary max-w-[300px] xl:max-w-[645px] max-h-[330px] pt-[60px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
+            className='bg-white rounded-[20px] border border-accent-primary max-w-[300px] xl:max-w-[645px] max-h-[350px] pt-[12px] xl:pt-[70px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
           >
-            {/* avatar image */}
-            <img src={image} alt='' className='hidden xl:flex'/>
-            {/* text */}
             <div>
               <div className='text-lg text-primary font-bold'>{name}</div>
               <div className='mb-4 font-semibold text-accent-primary'>
