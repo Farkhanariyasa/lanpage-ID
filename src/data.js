@@ -8,15 +8,19 @@ import Feature1Img from '../src/assets/img/features/feature1.png';
 import Feature2Img from '../src/assets/img/features/feature2.png';
 import Feature3Img from '../src/assets/img/features/feature3.png';
 import Feature4Img from '../src/assets/img/features/feature4.png';
+import Feature5Img from '../src/assets/img/features/feature5.png';
+import Feature6Img from '../src/assets/img/features/feature6.png';
+import untar from '../src/assets/img/testimonials/untar.png';
 import Avatar1Img from '../src/assets/img/testimonials/avatar1.png';
 import Avatar2Img from '../src/assets/img/testimonials/avatar2.png';
 import Avatar3Img from '../src/assets/img/testimonials/avatar3.png';
-import LogoV2 from '../src/assets/img/logo-v2.png';
+import LogoV2 from '../src/assets/img/logo.png';
 import HeroImage from '../src/assets/img/hero.svg';
 import Feature1BgImg from '../src/assets/img/features/feature1_bg.png';
 import Feature2BgImg from '../src/assets/img/features/feature2_bg.png';
 import Feature3BgImg from '../src/assets/img/features/feature3_bg.png';
 import Feature4BgImg from '../src/assets/img/features/feature4_bg.png';
+
 
 export const navigationData = [
   {
@@ -24,16 +28,20 @@ export const navigationData = [
     href: '#hero',
   },
   {
+    name: 'Why Us?',
+    href: '#features',
+  },
+  {
     name: 'Pricing',
     href: '#pricing',
   },
   {
-    name: 'Features',
-    href: '#features',
-  },
-  {
     name: 'Testimonials',
     href: '#testimonials',
+  },
+  {
+    name: 'FAQ',
+    href: '#faq',
   },
 ];
 
@@ -63,7 +71,7 @@ export const featuresData = {
       title: 'TRUSTED',
       description:
         'Kami sudah melayani ratusan klien dalam mengerjakan skripsi, tesis, maupun disertasi dari berbagai negara seperti Indonesia, Malaysia, Australia, Belanda, dan Amerika Serikat.',
-      delay: '400',
+      delay: '50',
     },
     {
       image: Feature2Img,
@@ -71,7 +79,7 @@ export const featuresData = {
       title: 'HIGH-QUALITY CONSULTANTS',
       description:
         'Tim konsultan kami dipimpin oleh lulusan statistik dari Amerika Serikat dengan pengalaman lebih dari 10 tahun.',
-      delay: '700',
+      delay: '75',
     },
     {
       image: Feature3Img,
@@ -79,7 +87,7 @@ export const featuresData = {
       title: 'UNDERSTANDABLE EXPLANATION',
       description:
         'Kami menjelaskan statistika dengan bahasa yang simpel dan mudah dimengerti',
-      delay: '1000',
+      delay: '100',
     },
     {
       image: Feature4Img,
@@ -87,30 +95,30 @@ export const featuresData = {
       title: 'FAST and ACCURATE',
       description:
         'Kami bekerja dengan cepat dan akurat karena bagi kami kepuasan klien itu nomor satu.',
-      delay: '1300',
+      delay: '125',
     },
     {
-      image: Feature4Img,
+      image: Feature5Img,
       bgImage: Feature4BgImg,
       title: 'WORTH THE MONEY ',
       description:
         'Free: konsultasi, interpretasi, dan revisi.',
-      delay: '1300',
+      delay: '150',
     },
     {
-      image: Feature3Img,
-      bgImage: Feature3BgImg,
+      image: Feature6Img,
+      bgImage: Feature4BgImg,
       title: 'BILINGUAL SERVICE',
       description:
         'Penjelasan dan tulisan bisa dalam bahasa Indonesia dan Inggris.',
-      delay: '1000',
+      delay: '175',
     },
   ],
 };
 
 export const testimonialsData = [
   {
-    image: Avatar1Img,
+    image: untar,
     name: 'Irene',
     web: 'Universitas Tarumanegara',
     message:
@@ -169,16 +177,20 @@ export const footerData = {
       href: '#hero',
     },
     {
+      name: 'Why Us?',
+      href: '#features',
+    },
+    {
       name: 'Pricing',
       href: '#pricing',
     },
     {
-      name: 'Features',
-      href: '#features',
-    },
-    {
       name: 'Testimonials',
       href: '#testimonials',
+    },
+    {
+      name: 'FAQ',
+      href: '#faq',
     },
   ],
   list2: [
@@ -205,6 +217,5 @@ export const footerData = {
 };
 
 export const copyrightData = {
-  text: '© Product Texas, 2022. All rights reserved. Company Registration Number: 09833888.',
-  icon: <BsChatDotsFill />,
+  text: '© Firstat, 2023. All rights reserved.',
 };

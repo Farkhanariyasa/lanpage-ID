@@ -35,9 +35,6 @@ const App = () => {
       <section id="testimonials">
         <Testimonials />
       </section>
-      <section id="cta">
-        <CtaSection />
-      </section>
       <section id="faq">
         <FAQ />
       </section>
