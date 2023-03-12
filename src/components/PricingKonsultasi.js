@@ -4,8 +4,8 @@ const PricingTutor = () => {
   return (
     <div class="flex-col xl:mb-[400px]" data-aos="fade-down" data-aos-delay="200">
       <div class="flex flex-col sm:flex-row    ">
-        <div class="py-12 pr-12 pl-4  w-[375px] xl:w-[800px]">
-          <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+        <div class="py-12 pr-12 pl-4  xl:w-[800px]">
+          <div class="bg-white w-[115%] xl:w-[520px] border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">BASIC</h4>
             </div>
@@ -43,7 +43,7 @@ const PricingTutor = () => {
             </div>
           </div>
         </div>
-        <div class="py-12 pl-4 w-[325px] xl:w-[800px]">
+        <div class="py-12 pl-4  xl:w-[800px]">
           <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">ORDINARY</h4>
@@ -94,8 +94,8 @@ const PricingTutor = () => {
       </div>
 
       <div class="flex flex-col  sm:flex-row">
-        <div class="py-12 pl-4 pr-12 w-[375px] xl:w-[800px]">
-          <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
+        <div class="py-12 pl-4 pr-12  xl:w-[800px]">
+          <div class="bg-white w-[115%] xl:w-[520px] border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">EXTRAORDINARY</h4>
             </div>
@@ -140,7 +140,7 @@ const PricingTutor = () => {
             </div>
           </div>
         </div>
-        <div class="py-12 pl-4 w-[325px] xl:w-[800px]">
+        <div class="py-12 pl-4 xl:w-[800px]">
           <div class="bg-white border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">MEETING ONLY</h4>
