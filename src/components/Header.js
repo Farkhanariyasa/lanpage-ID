@@ -44,8 +44,10 @@ const Header = () => {
           <button
             className="btn btn-quaternary flex items-center gap-x-[5px] xl:gap-x-[20px] group"
             onClick={() => {
-              window.location.href =
-                "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20Tanya";
+              window.open(
+                "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20Tanya",
+                "_blank"
+              );
             }}
           >
             <FaWhatsapp className="text-2xl text-accent-primary group-hover:text-white transition" />

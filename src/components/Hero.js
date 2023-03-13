@@ -42,8 +42,10 @@ const Hero = () => {
               data-aos="fade-down"
               data-aos-delay="150"
               onClick={() => {
-                window.location.href =
-                  "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20Tanya";
+                window.open(
+                  "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20Tanya",
+                  "_blank"
+                );
               }}
             >
               <div className="flex row justify-center ">
@@ -58,11 +60,7 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <img
-              src={image}
-              alt=""
-              className="w-[400px] pb-32 xl:w-[600px]"
-            />
+            <img src={image} alt="" className="w-[400px] pb-32 xl:w-[600px]" />
           </div>
         </div>
       </div>
