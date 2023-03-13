@@ -18,13 +18,14 @@ const TestimonialSlider = () => {
   return (
     <Swiper
       slidesPerView={'auto'}
-      centeredSlides={true}
-      spaceBetween={20}
+      // centeredSlides={true}
       pagination={{
         clickable: true,
       }}
       modules={[Pagination]}
-      className='mySwiper flex justify-start'
+      spaceBetween={20}
+      
+      className='mySwiper justify-start w-full'
     >
       {testimonialsData.map((slide, index) => {
         // destructure slide
@@ -33,14 +34,14 @@ const TestimonialSlider = () => {
           // slide
           <SwiperSlide
             key={index}
-            className='bg-white rounded-[20px] border border-accent-primary max-w-[300px] xl:max-w-[645px] max-h-[350px] pt-[12px] xl:pt-[70px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
+            className='bg-white rounded-[20px] border border-accent-primary max-w-[320px] xl:max-w-[675px] max-h-[370px] pt-[12px] xl:pt-[70px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
           >
             <div>
               <div className='text-lg text-primary font-bold'>{name}</div>
               <div className='mb-4 font-semibold text-accent-primary'>
                 {web}
               </div>
-              <p className='max-w-[600px] overflow-scroll xl:overflow-auto'>{message}</p>
+              <p className='overflow-scroll xl:overflow-auto'>{message}</p>
             </div>
           </SwiperSlide>
         );
