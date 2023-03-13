@@ -31,9 +31,11 @@ const App = () => {
       <section id="pricing">
         <Pricing />
       </section>
-
       <section id="testimonials">
         <Testimonials />
+      </section>
+      <section id="about">
+        <About />
       </section>
       <section id="faq">
         <FAQ />
