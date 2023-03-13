@@ -26,8 +26,10 @@ const PricingTutor = () => {
               <button
                 class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
                 onClick={() => {
-                  window.location.href =
-                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Tutor%20Introvert";
+                  window.open(
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Tutor%20Introvert",
+                    "_blank"
+                  );
                 }}
               >
                 Pesan Sekarang
@@ -43,7 +45,7 @@ const PricingTutor = () => {
             <h1 class="text-3xl text-center font-bold">
               <span class="text-[16px] italic font-normal">Start </span>
               Rp99.000
-              <span class="text-[16px] italic font-normal">min 3 orang </span>
+              <span class="text-[16px] italic font-normal">(min 3 orang) </span>
             </h1>
             <p class="px-4 text-center text-sm xl:w-[500px] xl:pl-24">
               Paket ini cocok untuk kamu yang pengen belajar ramean bareng
@@ -56,8 +58,10 @@ const PricingTutor = () => {
               <button
                 class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
                 onClick={() => {
-                  window.location.href =
-                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Tutor%20Extrovert";
+                  window.open(
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Tutor%20Extrovert",
+                    "_blank"
+                  );
                 }}
               >
                 Pesan Sekarang

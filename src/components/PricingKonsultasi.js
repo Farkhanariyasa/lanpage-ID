@@ -2,9 +2,13 @@ import React from "react";
 
 const PricingTutor = () => {
   return (
-    <div class="flex-col xl:mb-[400px]" data-aos="fade-down" data-aos-delay="200">
+    <div
+      class="flex-col xl:mb-[400px]"
+      data-aos="fade-down"
+      data-aos-delay="200"
+    >
       <div class="flex flex-col sm:flex-row    ">
-        <div class="py-12 pr-12 pl-4  xl:w-[800px]">
+        <div class="py-12 pr-12 pl-4  xl:w-[800px] ">
           <div class="bg-white w-[115%] xl:w-[520px] border-amber-300 border-2 pt-4 rounded-xl space-y-6 overflow-hidden  transition-all duration-500 transform hover:-translate-y-6 hover:scale-105 shadow-xl hover:shadow-2xl cursor-pointer">
             <div class="px-8 flex justify-center items-center">
               <h4 class="text-3xl font-bold text-gray-800">BASIC</h4>
@@ -12,7 +16,7 @@ const PricingTutor = () => {
             <h1 class="text-3xl text-center font-bold">
               <span class="text-[16px] italic font-normal">Free </span>Rp0.00
             </h1>
-            <p class="px-4 text-center text-sm ">
+            <p class="px-4 text-center text-sm  font-secondary">
               Paket ini cocok untuk kamu yang mau kenalan dulu sama kami dan
               pengen share permasalahan yang dihadapi di
               penelitian/skripsi/tesis/disertasi kamu
@@ -32,10 +36,12 @@ const PricingTutor = () => {
             </ul>
             <div class="text-center">
               <button
-                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
+                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden mb-4"
                 onClick={() => {
-                  window.location.href =
-                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Basic";
+                  window.open(
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Basic",
+                    "_blank"
+                  );
                 }}
               >
                 Pesan Sekarang
@@ -79,11 +85,13 @@ const PricingTutor = () => {
               </li>
             </ul>
             <div class="text-center  ">
-            <button
+              <button
                 class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
                 onClick={() => {
-                  window.location.href =
-                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Ordinary";
+                  window.open(
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Ordinary",
+                    "_blank"
+                  );
                 }}
               >
                 Pesan Sekarang
@@ -103,7 +111,7 @@ const PricingTutor = () => {
               <span class="text-[16px] italic font-normal">Start </span>
               Rp599.000
             </h1>
-            <p class="px-4 text-center text-sm ">
+            <p class="px-4 text-center text-sm  font-secondary">
               Paket ini cocok untuk kamu yang perlu diolahin datanya, dijelasin
               cara mengerjakannya, plus dibantu menuliskan hasil dan
               pembahasannya.
@@ -128,11 +136,13 @@ const PricingTutor = () => {
               </li>
             </ul>
             <div class="text-center  ">
-            <button
-                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
+              <button
+                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden mb-4"
                 onClick={() => {
-                  window.location.href =
-                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Extraordinary";
+                  window.open(
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Extraordinary",
+                    "_blank"
+                  );
                 }}
               >
                 Pesan Sekarang
@@ -150,10 +160,8 @@ const PricingTutor = () => {
             </h1>
             <p class="px-4 text-center text-sm flex-col justify-start items-center">
               Paket ini cocok untuk kamu yang :
-              <ul class="list-disc list-inside w-[250px] pl-[16px] xl:w-[500px]">
-                <li>
-                  Udah ngolah sendiri data tapi bingung cara baca output 
-                </li>
+              <ul class="list-disc list-inside w-[250px] pl-[16px] xl:w-[500px] font-secondary">
+                <li>Udah ngolah sendiri data tapi bingung cara baca output</li>
                 <li>
                   Udah ngolah dan interpretasi sendiri tapi gak yakin apakah
                   proses yang udah dilakukan sudah benar atau belum
@@ -170,14 +178,16 @@ const PricingTutor = () => {
               </li>
             </ul>
             <div class="text-center  ">
-            <button
+              <button
                 class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
-               onClick={() => {
-                window.location.href =
-                  "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Meeting%20Only";
-              }}
+                onClick={() => {
+                  window.open(
+                    "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Meeting%20Only",
+                    "_blank"
+                  );
+                }}
               >
-                  Pesan Sekarang
+                Pesan Sekarang
               </button>
             </div>
           </div>

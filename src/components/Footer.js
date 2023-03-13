@@ -17,8 +17,7 @@ const Footer = () => {
           <div className="w-[45%] mx-auto flex flex-col items-center xl:items-start">
             {/* logo */}
             <a className="flex" href="#hero">
-                <img className="mb-[65px]" src={logo} alt="" width={45} />
-              <span className="text-primary text-3xl pl-5 pt-2  font-bold">FIRSTAT</span>
+                <img className="mb-[25px]" src={logo} alt="" width={200} />
             </a>
             {/* address */}
             <div className="max-w-[260px] mb-5 text-primary font-bold">
@@ -33,8 +32,8 @@ const Footer = () => {
           <div className="flex flex-1 flex-col gap-y-14 xl:flex-row justify-between">
             {/* list 1 */}
             <div>
-              <div className="font-extrabold text-primary mb-8">About</div>
-              <ul className="flex flex-col gap-y-4">
+              <div className="font-extrabold text-primary mb-8">MENUS</div>
+              <ul className="flex flex-col gap-y-2">
                 {list1.map((item, index) => {
                   return (
                     <li key={index}>
@@ -44,6 +43,7 @@ const Footer = () => {
                     </li>
                   );
                 })}
+                
               </ul>
             </div>
             {/* list 2 */}
@@ -76,6 +76,7 @@ const Footer = () => {
                       <a
                         className="text-white text-xl hover:text-white"
                         href={item.href}
+                        target="_blank"
                       >
                         {item.icon}
                       </a>
