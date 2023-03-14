@@ -2,8 +2,8 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Open Sans',
-      secondary: 'Lato',
+      primary: 'Montserrat',
+      secondary: 'Poppins',
     },
     container: {
       padding: {
@@ -22,8 +22,8 @@ module.exports = {
         primary: '#06153A',
         secondary: '#4B5D68',
         accent: {
-          primary: '#9C69E2',
-          primary_hover: '#9059DB',
+          primary: '#FDBB30',
+          primary_hover: '#002D62',
           secondary: '#53D5FA',
           secondary_hover: '#E350A9',
           tertiary: '#68C9BA',
