@@ -4,7 +4,7 @@ const FAQ = () => {
   return (
     <div>
       <div>
-        <section class="text-gray-700">
+        <section class="text-primary">
           <div class="container px-5 py-24 mx-auto">
             <div class="text-center mb-20">
               <h1 class="h2 mb-6 xl:mb-12">

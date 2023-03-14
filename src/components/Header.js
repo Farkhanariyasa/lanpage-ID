@@ -13,10 +13,7 @@ const Header = () => {
   const [navMobile, setNavMobile] = useState(false);
   return (
     <header
-      className="mb-12 lg:mb-0 z-20 relative px-4 lg:px-0"
-      // data-aos='fade-down'
-      // data-aos-delay='1200'
-      // data-aos-duration='1000'
+      className="mb-12 lg:mb-0 z-20 bg-[#ffffff]/95 w-full h-[100px] py-4  px-4 lg:px-0 fixed top-0 left-0 right-0"
     >
       <div className="container mx-auto">
         <div className="flex items-center justify-between">
@@ -50,9 +47,9 @@ const Header = () => {
               );
             }}
           >
-            <FaWhatsapp className="text-2xl text-accent-primary group-hover:text-white transition" />
+            <FaWhatsapp className="text-2xl text-accent-primary_hover group-hover:text-white transition" />
             Hubungi Kami
-            <BsArrowRight className="text-2xl text-accent-primary group-hover:text-white transition" />
+            <BsArrowRight className="text-2xl text-accent-primary_hover group-hover:text-white transition" />
           </button>
 
           {/* nav trigger btn / only shows on mobile screens */}

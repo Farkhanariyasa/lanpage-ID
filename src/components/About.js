@@ -14,7 +14,7 @@ const About = () => {
       data-aos-offset="350"
     >
       <div className="container mx-auto">
-        <div className="bg-white border-2 border-amber-300 rounded-[50px] min-h-[560px] px-12 pb-2 flex flex-col text-center  xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:pb-0">
+        <div className="bg-white border-4 border-primary rounded-[50px] min-h-[560px] px-12 pb-2 flex flex-col text-center  xl:flex-row xl:items-center xl:text-left  xl:gap-x-[60px] xl:p-16">
           {/* image */}
           {/* <div className="flex-1" data-aos="zoom-in-left">
             <img src={image} alt="" />
