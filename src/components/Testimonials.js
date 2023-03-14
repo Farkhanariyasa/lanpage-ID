@@ -8,7 +8,7 @@ const Testimonials = () => {
     <section className='overflow-hidden'>
       <div className='mx-auto'>
         <div
-          className='bg-accent-primary min-h-[600px]'
+          className='bg-accent-primary_hover min-h-[600px] px-11'
           data-aos='fade-up'
           data-aos-offset='300'
         >

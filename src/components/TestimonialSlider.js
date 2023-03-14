@@ -25,7 +25,7 @@ const TestimonialSlider = () => {
       modules={[Pagination]}
       spaceBetween={20}
       
-      className='mySwiper justify-start w-full'
+      className='mySwiper justify-center w-full rounded-xl'
     >
       {testimonialsData.map((slide, index) => {
         // destructure slide
@@ -34,11 +34,11 @@ const TestimonialSlider = () => {
           // slide
           <SwiperSlide
             key={index}
-            className='bg-white rounded-[20px] border border-accent-primary max-w-[320px] xl:max-w-[675px] max-h-[370px] pt-[12px] xl:pt-[70px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
+            className='bg-white rounded-[20px] border border-primary max-w-[320px] xl:max-w-[525px] max-h-[370px] pt-[12px] xl:pt-[70px] px-[35px] xl:px-[70px] pb-[50px] flex items-start gap-x-[30px] shadow-xl'
           >
             <div>
               <div className='text-lg text-primary font-bold'>{name}</div>
-              <div className='mb-4 font-semibold text-accent-primary'>
+              <div className='mb-4 font-semibold text-accent-primary_hover'>
                 {web}
               </div>
               <p className='overflow-scroll xl:overflow-auto'>{message}</p>
