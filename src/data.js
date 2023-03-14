@@ -4,12 +4,12 @@ import { BsChatDotsFill } from "react-icons/bs";
 
 // import images
 import AboutImg from "../src/assets/img/about-svg.svg";
-import Feature1Img from "../src/assets/img/features/feature1.png";
-import Feature2Img from "../src/assets/img/features/feature2.png";
-import Feature3Img from "../src/assets/img/features/feature3.png";
-import Feature4Img from "../src/assets/img/features/feature4.png";
-import Feature5Img from "../src/assets/img/features/feature5.png";
-import Feature6Img from "../src/assets/img/features/feature6.png";
+import Feature1Img from "../src/assets/img/features/feature1_svg.svg";
+import Feature2Img from "../src/assets/img/features/feature2_svg.svg";
+import Feature3Img from "../src/assets/img/features/feature3_svg.svg";
+import Feature4Img from "../src/assets/img/features/feature4_svg.svg";
+import Feature5Img from "../src/assets/img/features/feature5_svg.svg";
+import Feature6Img from "../src/assets/img/features/feature6_svg.svg";
 import Avatar1Img from "../src/assets/img/testimonials/avatar1.png";
 import Avatar2Img from "../src/assets/img/testimonials/avatar2.png";
 import Avatar3Img from "../src/assets/img/testimonials/avatar3.png";

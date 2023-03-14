@@ -66,7 +66,6 @@ const Features = () => {
                     <a className='text-primary font-bold' href='#'>
                       {linkText}
                     </a>
-                    <BsArrowRight className='text-xl text-accent-primary group-hover:ml-[5px] transition-all' />
                   </div>
                 </div>
               </div>
