@@ -36,7 +36,7 @@ const PricingTutor = () => {
             </ul>
             <div class="text-center">
               <button
-                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden mb-4"
+                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
                 onClick={() => {
                   window.open(
                     "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Basic",
@@ -137,7 +137,7 @@ const PricingTutor = () => {
             </ul>
             <div class="text-center  ">
               <button
-                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden mb-4"
+                class="rounded-2xl h-12 w-48 bg-green-500 font-bold text-lg text-white relative overflow-hidden my-4"
                 onClick={() => {
                   window.open(
                     "https://wa.me/62811908400?text=Halo%20Admin%20Saya%20ingin%20order%20paket%20Extraordinary",
