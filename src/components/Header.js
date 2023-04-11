@@ -35,7 +35,7 @@ const Header = () => {
               navMobile ? "max-h-[750px]" : "max-h-0"
             } lg:hidden absolute top-24 bg-accent-tertiary w-full left-0 right-0 font-bold rounded transition-all overflow-hidden`}
           >
-            <NavMobile />
+            <NavMobile mobile={setNavMobile}/>
           </div>
 
           <button
