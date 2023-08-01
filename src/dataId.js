@@ -125,12 +125,20 @@ export const featuresData = {
 
 export const testimonialsData = [
   {
-    image: Avatar1Img,
-    name: "Irene",
-    web: "Universitas Tarumanegara",
+    image: Avatar3Img,
+    name: "Sai",
+    web: "Harvard University ",
     message:
-      "Dapat diajak berdiskusi dengan baik.. konsultannya benar2 menguasai dan cara menjelaskannya mudah dipahami.. membuatku jadi makin paham olah data dengan aplikasi MPLUS!",
-    delay: "300",
+      "The teacher is patient, talented and a subject matter expert. She is a kind and charming tutor and provides clear explanations on any questions raised. I highly recommended their service.",
+    delay: "900",
+  },
+  {
+    image: Avatar3Img,
+    name: "Chelsea ",
+    web: "University of Groningen",
+    message:
+      "The teacher is an excellent teacher. She is very helpful and also flexible, which is a very good quality as a tutor. I had a great time during our session! She also makes the session feel welcoming and pleasurable. ",
+    delay: "900",
   },
   {
     image: Avatar2Img,
@@ -140,6 +148,15 @@ export const testimonialsData = [
       "Tutor has a deep understanding of statistics and she is able to explain it in an easy-to-understand language to a person without prior extensive experience in stats!",
     delay: "600",
   },
+  {
+    image: Avatar1Img,
+    name: "Irene",
+    web: "Universitas Tarumanegara",
+    message:
+      "Dapat diajak berdiskusi dengan baik.. konsultannya benar2 menguasai dan cara menjelaskannya mudah dipahami.. membuatku jadi makin paham olah data dengan aplikasi MPLUS!",
+    delay: "300",
+  },
+
   {
     image: Avatar3Img,
     name: "Ina",
@@ -158,19 +175,51 @@ export const testimonialsData = [
   },
   {
     image: Avatar3Img,
-    name: "Sai",
-    web: "Harvard University ",
+    name: "Dian",
+    web: "University of Nebraska-Lincoln",
     message:
-      "The teacher is excellent! She was very helpful and also flexible - which is a very good quality as a tutor. I had a great time during our sessions! She also made the session feel welcoming and pleasurable.",
+      "Jasa yang kami terima sangat memuaskan, baik itu terkait kualitas analisis dan waktu penyelesaian. Kami berencana untuk terus melanjutkan menggunakan jasa statistik yang ditawarkan terutama terkait pengolahan data pengujian lab di bidang infrastruktur dan ketekniksipilan lainnya.",
+    delay: "300",
+  },
+  {
+    image: Avatar3Img,
+    name: "Mukhlis",
+    web: "Universitas Padjadjaran",
+    message:
+      "Pengolahan statistik dengan Firstat ini dapat membuat saya selain mendapatkan data tapi juga mengerti dengan proses yang dilakukan, sehingga pada saat sidang juga mengetahui dasar-dasar alasan perhitungan statistik. Sangat terbuka untuk diskusi dan bersama-sama mengolah demi tercapainya tujuan penelitian.",
+    delay: "600",
+  },
+  {
+    image: Avatar3Img,
+    name: "Grace",
+    web: "Universitas Padjadjaran",
+    message:
+      "Konsultannya baik banget, memberikan lebih dari yang diminta. Memberikan solusi/saran di saat kebingungan dan bisa bekerja dengan cepat. Thank you so much!",
     delay: "900",
   },
   {
     image: Avatar3Img,
-    name: "Chelsea ",
+    name: "Insan",
+    web: "Vrije Universiteit Amsterdam",
+    message:
+      "Konsultan sangat memahami topik yang dikonsultasikan. Proses konsultasi pun efisien dan efektif fokus kepada solusi. Mereka juga cepat tanggap dalam merespon pertanyaan melalui WhatsApp.",
+    delay: "1200",
+  },
+  {
+    image: Avatar3Img,
+    name: "Wildan",
+    web: "Purdue University",
+    message:
+      "Pengajarnya bisa menjadi pendamping yang sangat baik dalam mengajari statistik dari awal. Dia tahu cara mengajar yang efektif dan bisa membuat kita mengerti statistik. Saya sangat merekomendasikan jasanya untuk siapa pun yang mau belajar statistik!",
+    delay: "1500",
+  },
+  {
+    image: Avatar3Img,
+    name: "Willy",
     web: "University of Groningen",
     message:
-      "The teacher is an excellent teacher. She is very helpful and also flexible, which is a very good quality as a tutor. I had a great time during our session! She also makes the session feel welcoming and pleasurable. ",
-    delay: "900",
+      "Having spent the past few months with them, I've seen firsthand how much they invest in their clients. They poured 100% of their effort into ensuring that each concept was clear, accessible, and comprehensible to me. Without reservation, I would highly recommend their service!",
+    delay: "1800",
   },
 ];
 
