@@ -7,7 +7,7 @@ const PricingTutor = () => {
         <h2 className="h2 text-center">Introvert</h2>
         <h1 class="text-2xl text-center font-bold">
           <span class="text-[16px] italic font-normal">Mulai dari </span>
-          Rp299.000
+          Rp499.000
         </h1>
         <div class="p-4 text-center">
         Paket ini cocok buat kamu yang pengen belajar dan ditutorin one-on-one (private). Pastinya tutor kami profesional, berpengalaman, dan dengan berbagai tipe kepribadian. Mau request tutor yang heboh, kalem, bebas! Ada semua di tim kami!
@@ -37,7 +37,7 @@ const PricingTutor = () => {
         <h2 className="h2 text-center">Ekstrovert</h2>
         <h1 class="text-2xl text-center font-bold">
           <span class="text-[16px] italic font-normal">Mulai dari </span>
-          Rp199.000
+          Rp299.000
         </h1>
         {/* <h3 className="h3 text-[16px] mt-3 text-center">
           per orang (min. 3 orang)
