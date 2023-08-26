@@ -14,12 +14,12 @@ const Nav = () => {
     const selectedValue = select.options[select.selectedIndex].value;
     if (selectedValue === "id") {
       setCode("ID");
-      window.location.replace("/id");
+      window.location.replace("https://firstat.id/edu/id");
       // navigate("/id");
     } else if (selectedValue === "en") {
       setCode("GB");
       // navigate("/en");
-      window.location.replace("/en");
+      window.location.replace("https://firstat.id/edu/en");
     }
   };
   return (

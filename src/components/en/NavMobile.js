@@ -14,10 +14,12 @@ const NavMobile = (props) => {
     const selectedValue = select.options[select.selectedIndex].value;
     if (selectedValue === "id") {
       setCode("ID");
-      navigate("/id");
+      // navigate("edu/id");
+      window.location.replace("https://firstat.id/edu/id");
     } else if (selectedValue === "en") {
       setCode("GB");
-      navigate("/en");
+      // navigate("edu/en");
+      window.location.replace("https://firstat.id/edu/en");
     }
   };
   return (
